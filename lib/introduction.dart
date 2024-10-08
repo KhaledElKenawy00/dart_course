@@ -1,7 +1,12 @@
-import 'dart:io';
-
 void main() {
-  print("entwr ypur name ");
-  String? name = stdin.readLineSync();
-  print("your name is $name");
+  String text1 = 'هذا مثال لسلسلة نصية في سطر واحد.';
+  String text2 =
+      "هذا مثال لسلسلة نصية في سطر واحد باستخدام علامات التنصيص المزدوجة.";
+  String text3 = """هذا مثال لسلسلة نصية متعددة
+تستخدم علامات التنصيص الثلاثية.
+هذا درس عن سلاسل النصوص في دارت.
+""";
+  print(text1);
+  print(text2);
+  print(text3);
 }
