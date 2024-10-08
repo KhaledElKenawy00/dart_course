@@ -1,31 +1,39 @@
 void main() {
-// int ,num ,double
-  int age = 20;
-  num age2 = 55;
-  double width = 154.5;
+  void main() {
+    // تعريف رقمين
+    int num1 = 10;
+    int num2 = 3;
 
-  String fullName = "khaled mostafa";
-  String age3 = '123';
-  List<num> numbers = [10, 20, 30, 40, 50];
-  Map<String, int> ages = {"khaled": 55, "ahmed": 25, "mahmoud": 30};
-  Set<int> values = {10, 10, 10, 20, 25};
-  bool isDriver = false;
-  String age5 = "55.5";
-  Runes loveSymbol = new Runes('\u2665');
+    // القيام بالحسابات الحسابية
+    int sum = num1 + num2; // الجمع
+    int diff = num1 - num2; // الطرح
+    int unaryMinus = -num1; // الناقص الأحادي
+    int mul = num1 * num2; // الضرب
+    double div = num1 / num2; // القسمة
+    int div2 = num1 ~/ num2; // القسمة الصحيحة
+    int mod = num1 % num2; // الباقي
 
-  print("Love symbol: ${String.fromCharCodes(loveSymbol)}");
-  print(double.parse(age5));
+    // طباعة النتائج
+    print("الجمع هو $sum.");
+    print("الطرح هو $diff.");
+    print("الناقص الأحادي هو $unaryMinus.");
+    print("الضرب هو $mul.");
+    print("القسمة هي $div.");
+    print("القسمة الصحيحة هي $div2.");
+    print("الباقي هو $mod.");
+  }
 
-  print(values);
-  print(numbers[0]);
-
-// numbers
-// string
-// list
-// map
-// set
-// null
-// bool
-// convert
-// runes
+// Output:
+// الجمع هو 13.
+// الطرح هو 7.
+// الناقص الأحادي هو -10.
+// الضرب هو 30.
+// القسمة هي 3.3333333333333335.
+// القسمة الصحيحة هي 3.
+// الباقي هو 1.
+//operator
+//plus
+//minus
+//devide
+//multyply
 }
