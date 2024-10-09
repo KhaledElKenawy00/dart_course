@@ -1,12 +1,13 @@
 void main() {
-  String text1 = 'هذا مثال لسلسلة نصية في سطر واحد.';
-  String text2 =
-      "هذا مثال لسلسلة نصية في سطر واحد باستخدام علامات التنصيص المزدوجة.";
-  String text3 = """هذا مثال لسلسلة نصية متعددة
-تستخدم علامات التنصيص الثلاثية.
-هذا درس عن سلاسل النصوص في دارت.
-""";
-  print(text1);
-  print(text2);
-  print(text3);
+  int score = 75;
+
+  if (score >= 90) {
+    print("Excellent!");
+  } else if (score >= 80) {
+    print("Good job!");
+  } else if (score >= 70) {
+    print("Nice try!");
+  } else {
+    print("You can do better!");
+  }
 }
