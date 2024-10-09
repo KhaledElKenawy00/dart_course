@@ -1,13 +1,20 @@
 void main() {
-  int score = 75;
-
-  if (score >= 90) {
-    print("Excellent!");
-  } else if (score >= 80) {
-    print("Good job!");
-  } else if (score >= 70) {
-    print("Nice try!");
-  } else {
-    print("You can do better!");
+  String day = 'kj';
+  switch (day) {
+    case 'saturday':
+      print('today is saturday');
+      break;
+    case 'monday':
+      print('today is monday');
+      break;
+    case 'wensday':
+      print('today is wensday');
+      break;
+    case 'thersday':
+      print('today is thersday');
+      break;
+    default:
+      print('invalid day');
+      break;
   }
 }
